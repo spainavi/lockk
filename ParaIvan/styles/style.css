@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding: 0;
+}
+div.card {
+  width:300px;
+  height: auto;
+}
+
+div.row{
+  width:400px;
+  height: auto;
+  margin right: 50px;
+  margin top: 0 px;
+  margin-bottom: 2px;
+  padding: 10px;
+  display: inline-block;
+}
+div.card-content{
+  background-color: #F5ECCE;
+}
+.responsive-img{
+  height: 39px;
+  width: 39px;
+  border-radius: 100px;
+  margin-right: 13px;
+}
