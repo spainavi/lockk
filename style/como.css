@@ -1,0 +1,17 @@
+nav {
+  background-color: #1978bd; }
+
+main {
+  height: 580px; }
+
+footer {
+  height: 90px; }
+  footer debajo {
+    position: relative; }
+    footer debajo footer.page-footer {
+      background-color: #1978bd; }
+      footer debajo footer.page-footer div {
+        padding-bottom: 20px;
+        font-size: 20px; }
+
+/*# sourceMappingURL=como.css.map */

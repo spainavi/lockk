@@ -1,0 +1,20 @@
+nav {
+  background-color: #1978bd; }
+
+main.container {
+  margin-top: 100px;
+  height: 500px; }
+  main.container slider div ul li div h3.color {
+    color: #179daa; }
+
+footer {
+  height: 90px; }
+  footer debajo {
+    position: relative; }
+    footer debajo footer.page-footer {
+      background-color: #1978bd; }
+      footer debajo footer.page-footer div {
+        padding-bottom: 20px;
+        font-size: 20px; }
+
+/*# sourceMappingURL=somos.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAG;EACD,gBAAgB,EAAE,OAAO;;ACA3B,cAAc;EACZ,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,KAAK;EAOH,4CAAQ;IACN,KAAK,EAAE,OAAiB;;ACXtC,MAAM;EACJ,MAAM,EAAE,IAAI;EACZ,aAAM;IACJ,QAAQ,EAAE,QAAQ;IAClB,gCAAkB;MAChB,gBAAgB,EAAG,OAAO;MAC1B,oCAAG;QACD,cAAc,EAAE,IAAI;QACpB,SAAS,EAAE,IAAI",
+"sources": ["_menu.sass","somos.sass","_footer.sass"],
+"names": [],
+"file": "somos.css"
+}
