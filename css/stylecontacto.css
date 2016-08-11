@@ -1,0 +1,23 @@
+img{
+  width: 200px;
+  height: 200px;
+  display:flex;
+  justify-content:center;
+  margin-left: 70px;
+}
+main{
+  margin-top: 100px;
+}
+
+h3{
+  font-size: 25px;
+  display:flex;
+  justify-content:center;
+}
+h4{
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+}
