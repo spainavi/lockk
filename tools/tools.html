@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/" method="post">
+        <div>
+            <label for="name">nombre:</label>
+            <input type="text" name="asegurado" id="name" />
+        </div>
+        <div>
+            <label for="renovacion">fecha de renovación:</label>
+            <textarea id="renovacion" placeholder="renovación"></textarea>
+        </div>
+        <div>
+            <label for="pago">fecha de pago:</label>
+            <textarea id="pago" placeholder="día de pago"></textarea>
+        </div>
+        <div>
+            <label for="descripcion">descripción:</label>
+            <textarea id="descripcion"></textarea>
+        </div>
+        <div>
+            <label for="mail">e-mail:</label>
+            <textarea id="mail" placeholder="e-mail"></textarea>
+        </div>
+        <div>
+            <label for="cel">teléfono:</label>
+            <textarea id="cel" placeholder="phone"></textarea>
+        </div>
+        <div>
+            <label for="tipo">aseguradora:</label>
+            <select id="tipo">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+            </select>
+        </div>
+        <div>
+            <button type="button" id="agregar">Agregar</button>
+        </div>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Renovación</th>
+                <th>Pago</th>
+                <th>seguro</th>
+                <th>Descripcion</th>
+                <th>email</tr>
+                <th>telefono</th>
+
+        </thead>
+        <tbody id="tabla-elementos">
+
+        </tbody>
+    </table>
+  <script src="tools.js"></script>
+</body>
+</html>
