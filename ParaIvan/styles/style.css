@@ -7,7 +7,7 @@ div.card {
   height: auto;
 }
 
-div.row{
+div.mainrow{
   width:400px;
   height: auto;
   margin right: 50px;
@@ -25,3 +25,67 @@ div.card-content{
   border-radius: 100px;
   margin-right: 13px;
 }
+footer{
+  background-color: blue;
+}
+
+#mainindex {
+  width: 100%;
+  height: 800px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+#botones{
+  z-index: 1000;
+  position: absolute;
+  top:40%;
+  /*right: 40%;*/
+  margin-left: 29%;
+  margin-top: 90px;
+}
+#botones a {
+  margin-left: 50px;
+  height: 54px;
+  width: 190px;
+}
+#indexsection{
+  position: relative;
+  background: url("../img/homecover.jpg");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -300px ;
+}
+#rowindex{}
+
+#navindex{
+  height: 90px;
+}
+#brandlogoo{
+  height: 82px;
+  width: auto;
+}
+
+.large material-icons{
+  height: 90px;
+  width: auto;
+}
+.navtitulos{
+  font-size: 19px;
+  font-style: thin;
+  margin-right: 20px;
+}
+.slidermain{
+  height: 510px;
+}
+
+#textoindex{
+  margin-left: 29%;
+  margin-top: 10px;
+}
+/*.waves-effect{
+
+}*/
